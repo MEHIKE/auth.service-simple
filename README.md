@@ -1,1 +1,1 @@
-# auth.service-simple
+# auth-service-simple
