@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: authsimple
+  labels:
+    app: authsimple
+data:
+  service-port: "8086"
+
+

@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: authsimple
+  labels:
+    app: authsimple
+spec:
+  #externalIPs:
+  #- 192.168.1.156
+  #- 88.196.63.92
+  ports:
+  - port: 8086
+    protocol: TCP
+    targetPort: 8085
+  selector:
+    app: authsimple
+  type: NodePort
