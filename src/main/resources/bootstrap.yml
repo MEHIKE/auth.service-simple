@@ -14,8 +14,8 @@ spring:
       INDENT_OUTPUT: true
   datasource:
     url: jdbc:postgresql://postgres:5432/microservices?currentSchema=public
-    username: ${POSTGRES_USER}
-    password: ${POSTGRES_PASSWORD}
+    username: admin
+    password: admin123
     driver-class-name: org.postgresql.Driver
     tomcat:
       test-while-idle: true
