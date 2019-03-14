@@ -22,9 +22,9 @@ import org.springframework.security.oauth2.provider.token.store.KeyStoreKeyFacto
 import javax.sql.DataSource;
 import java.security.KeyPair;
 
-@Configuration
-@EnableAuthorizationServer
-@EnableConfigurationProperties(SecurityProperties.class)
+//@Configuration
+//@EnableAuthorizationServer
+//@EnableConfigurationProperties(SecurityProperties.class)
 public class AuthorizationServerConfiguration extends AuthorizationServerConfigurerAdapter {
 
     private final DataSource dataSource;
