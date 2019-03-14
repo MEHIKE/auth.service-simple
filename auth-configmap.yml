@@ -6,7 +6,7 @@ metadata:
     app: authsimple
 data:
   service-port: "8086"
-  service-host: authsimple
+  service-host: auth_service_simple
   eureka-uri: "http://eureka:8061/eureka/"
   database-name: microservices
 
